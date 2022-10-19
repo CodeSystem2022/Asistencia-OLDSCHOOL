@@ -25,7 +25,37 @@ public class AsistenciaOctubre {
 
         }
         System.out.println("\nLa suma de todos los numeros es: "+suma);
+    
+    
+        //EJERCICIO JULIAN ANTEQUERA   
+    
+        Scanner entrada2 = new Scanner(System.in);
+                float numero1;
+
+                System.out.println("Digite un numero");
+                numero1 = entrada2.nextFloat();
+
+                float resultado = 0;
+                float acc = 0;
+                float suma2 = 0;
+
+                while (numero1 > 0){;
+                    suma2 = suma2 + numero1;
+                    acc++;
+                    System.out.println("Digite un numero");
+                    numero1 = entrada2.nextFloat();
+                }
+                resultado = suma2 / acc;
+                System.out.println("El promedio es: " + resultado)
+    
+    
+    
+    
     }
+
+
+
+
 }
 
 
