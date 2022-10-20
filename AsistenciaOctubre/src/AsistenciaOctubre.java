@@ -48,7 +48,20 @@ public class AsistenciaOctubre {
                 resultado = suma2 / acc;
                 System.out.println("El promedio es: " + resultado)
     
-    
+            //YESSICA REYNOSO
+            public class Ciclos06 {
+                public static void main(String[] arg) {
+                    Scanner entrada = new Scanner(System.in); 
+                    int numero,suma =0;
+                    do{
+                        System.out.println("Digite un numero:");
+                        numero = Integer.parseInt(entrada.nextLine());
+                        suma += numero;
+                        
+                    }while(numero !=0);
+                    System.out.println("La suma de todos los numeros que ingreso es de:"+suma);
+                }
+                
     
     
     }
