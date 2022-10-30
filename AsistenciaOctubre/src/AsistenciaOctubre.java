@@ -83,10 +83,16 @@ public class AsistenciaOctubre {
             JOptionPane.showMessageDialog(null, "El promedio es: " + promedio);
         }
 
+        //Ejercicio Gustavo Malaniuk
 
+        long factorial15 = 1;
+        int numero7 = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
+        for (int i = 1; i <= numero7; i++) {
+            factorial15 *= i;
+        }
+        JOptionPane.showMessageDialog(null, "El factorial del número ingresado es: " + factorial15);
     }
 }
-
 
 
 
